@@ -8,10 +8,13 @@ const CharactersGrid = ({ items, isLoading}) => {
     ) : (
         <section className="cards">
             {items.map(item => (
-                <CharacterItem key={item.name} item={item}></CharacterItem>
+                <CharacterItem key={item[0].name} item={item}/>
+               
             ))}
         </section>
     )
 }
+
+
 
 export default CharactersGrid
