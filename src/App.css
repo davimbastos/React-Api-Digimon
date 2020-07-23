@@ -18,7 +18,7 @@ a {
 
 .container {
   max-width: 1100px;
-  margin: auto;
+  margin: auto auto 50px auto;
   padding: 0 20px;
 }
 
@@ -98,10 +98,14 @@ input[type="text"] {
   transform-style: preserve-3d;
 }
 
-.card:hover .card-inner {
+/* .card:hover .card-inner {
   transform: rotateY(180deg);
 
-} 
+}   */
+
+.turn-on {
+  transform: rotateY(180deg);
+}
 
 .card-front,
 .card-back {
@@ -114,9 +118,9 @@ input[type="text"] {
 }
 
 .card-back {
-  background-color: #333;
+  /* background-color: #333;
   color: white;
-  padding: 20px;
+  padding: 20px; */
   transform: rotateY(180deg);
 }
 
