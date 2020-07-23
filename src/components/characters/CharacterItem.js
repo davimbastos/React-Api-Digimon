@@ -23,11 +23,12 @@ const CharacterItem = ({ item }) => {
     <div className='card'>
       <div onClick={turnOn} className='card-inner'>
         <div className='card-front'>
+          <h1>{item[digimon].name}</h1>
           <img src={item[digimon].img} alt='' />
         </div>
         <div className='card-back'>
+          <h1>{item[digimon].name}</h1>
           <img src={item[digimon].img} alt='' />
-          {/* <h1>{item[0].name}</h1> */}
           {/* <ul>
             <li>
               <strong>Level:</strong> {item[0].level}
