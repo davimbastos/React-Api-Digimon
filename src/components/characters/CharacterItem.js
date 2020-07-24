@@ -17,7 +17,7 @@ const CharacterItem = ({ item, indice }) => {
       }else{
         setDigimon(digimon + 1)
       }
-    },200)
+    },100)
 
     // setTimeout(() => {
     //   document.getElementById(indice).classList.remove('turn-on')
