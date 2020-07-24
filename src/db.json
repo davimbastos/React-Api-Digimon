@@ -8,7 +8,7 @@
                 
             },
             
-            {
+            {   
                 "name": "Agumon",
                 "img": "https://digimon.shadowsmith.com/img/agumon.jpg",
                "level": "Rookie"
@@ -37,6 +37,7 @@
     {
         "digimon_id":
         [
+            
             {
                 "name": "Tsunomon",
                 "img": "https://digimon.shadowsmith.com/img/tsunomon.jpg",
@@ -73,21 +74,25 @@
                 "level": "In Training"
             },
             {
+                
                 "name": "Biyomon",
                 "img": "https://digimon.shadowsmith.com/img/biyomon.jpg",
                 "level": "Rookie"
             },
             {
+                
                 "name": "Birdramon",
                 "img": "https://digimon.shadowsmith.com/img/birdramon.jpg",
                 "level": "Champion"
             },
             {
+                
                 "name": "Garurumon",
                 "img": "https://digimon.shadowsmith.com/img/garudamon.jpg",
                 "level": "Champion"
             },
             {
+                
                 "name": "Phoenixmon",
                 "img": "https://digimon.shadowsmith.com/img/phoenixmon.jpg",
                 "level": "Mega"
